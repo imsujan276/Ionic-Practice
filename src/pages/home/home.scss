@@ -1,0 +1,9 @@
+page-home {
+    .scroll-section {
+        min-height: 45vh;
+        max-height: 45vh;
+    }
+    ion-scroll .scroll-content {
+        padding: 10px;
+    }
+}

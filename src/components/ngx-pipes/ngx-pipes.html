@@ -1,0 +1,15 @@
+<!-- Generated template for the NgxPipesComponent component -->
+<div>
+  <h3 (click)="gotoUrl()"> Using ngx-pipes </h3>
+  <ion-list>
+    <ion-item> {{param}} </ion-item>
+    <ion-item> {{param | shorten: 5: '...'}} </ion-item>
+    <ion-item> {{param  | reverse}} </ion-item>
+    <ion-item> {{param | slugify}} </ion-item>
+    <ion-item> {{param  | camelize}} </ion-item>
+    <ion-item> {{param | test: '[\\d]+$': 'g' }} - contains digits </ion-item>
+    <ion-item> {{param | test: '^custom': 'i' }} - contains 'custom'</ion-item>
+    <ion-item> {{ 'example' | repeat: 3: '@' }} </ion-item>
+    <ion-item> {{ ' foo' | ltrim | reverse }} </ion-item>
+  </ion-list>
+</div>

@@ -1,0 +1,58 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "call-number": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-autostart": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-braintree": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-calllog": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-fingerprint-aio": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "com.suga.practice"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.suga.practice"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.suga.practice"
+    }
+  }
+}

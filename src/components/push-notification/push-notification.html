@@ -1,0 +1,18 @@
+<!-- Generated template for the PushNotificationComponent component -->
+<div>
+  <form (ngSubmit)="submit()">
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Title</ion-label>
+        <ion-input type="text" [(ngModel)]="data.title" name="title"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Description</ion-label>
+        <ion-input type="text" [(ngModel)]="data.description" name="description"></ion-input>
+      </ion-item>
+    </ion-list>
+    <div padding>
+      <button ion-button full round>Add Notification</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,54 @@
+{
+  "_from": "git+https://github.com/taracque/cordova-plugin-braintree.git",
+  "_id": "cordova-plugin-braintree@0.5.3",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-braintree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/taracque/cordova-plugin-braintree.git",
+    "rawSpec": "git+https://github.com/taracque/cordova-plugin-braintree.git",
+    "saveSpec": "git+https://github.com/taracque/cordova-plugin-braintree.git",
+    "fetchSpec": "https://github.com/taracque/cordova-plugin-braintree.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/taracque/cordova-plugin-braintree.git#1840b40e5029df1437007de68b97e93f371d34f8",
+  "_spec": "git+https://github.com/taracque/cordova-plugin-braintree.git",
+  "_where": "D:\\Sujan\\ionic\\practice",
+  "bugs": {
+    "url": "https://github.com/taracque/cordova-plugin-braintree/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-braintree",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "xcode": "1.0.0"
+  },
+  "deprecated": false,
+  "description": "A Cordova plugin for the Braintree mobile payment processing SDK.",
+  "homepage": "https://github.com/taracque/cordova-plugin-braintree#readme",
+  "keywords": [
+    "cordova",
+    "braintree",
+    "payment",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-braintree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taracque/cordova-plugin-braintree.git"
+  },
+  "version": "0.5.3"
+}

@@ -1,0 +1,22 @@
+<!-- Generated template for the GroupByComponent component -->
+<div>
+    <h2>Groupby Example</h2>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+            <pre> {{myArray | json}}</pre>
+        </ion-col>
+        <ion-col col-6>
+            <p> Group By color</p>
+            <ul>
+               <li *ngFor="let arr of myArray | myGroupBy:'color'">
+                 {{arr.key}}
+                 <ul>
+                   <li *ngFor="let a of arr.value"> {{a.name}}</li>
+                 </ul>
+               </li>
+            </ul>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</div>

@@ -1,0 +1,84 @@
+<!-- Generated template for the NgxPipesArrayComponent component -->
+<div>
+  <h5>Array</h5>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4>
+          intersection
+          <li *ngFor="let item of items1 | intersection: [1, 2, 3]: [3, 6]"> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          reverse
+          <li *ngFor="let item of items1 | reverse"> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          remove empty, null, undefined
+          <li *ngFor="let item of items2 | truthify"> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          unique
+          <li *ngFor="let item of items1 | unique"> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          Exclude items 1 and 3
+          <li *ngFor="let item of items1 | without: [1,3]"> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          Pluck item
+          <li *ngFor="let item of items3 | pluck: 'a' "> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          Pluck sub item
+          <li *ngFor="let item of items3 | pluck: 'b.c' "> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+          shuffle
+          <li *ngFor="let item of items1 | shuffle "> {{item}} </li>
+      </ion-col>
+      <ion-col col-4>
+        Union/merge
+        <li *ngFor="let item of items1 | union: [[4,0,9]]">{{item}}</li>
+      </ion-col>
+      <!-- <ion-col col-6>
+          GroupBy object
+          <pre>{{arrayObject | groupBy: 'elm' | json}}</pre>
+      </ion-col>
+      <ion-col col-6>
+          GroupBy nested object
+          <pre>{{arrayNestedObject  | groupBy: 'prop.deep' | json}}</pre>
+      </ion-col> -->
+    </ion-row>
+  </ion-grid>
+
+  <h5>
+    Maths : [1, 2, 3, 1, 2, 3]
+  </h5>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4>
+        Minimum : {{ [1, 2, 3, 1, 2, 3] | min }}
+      </ion-col>
+      <ion-col col-4>
+          maximum : {{ [1, 2, 3, 1, 2, 3] | max }}
+        </ion-col>
+        <ion-col col-4>
+            sum : {{ [1, 2, 3, 1, 2, 3] | sum }}
+          </ion-col>
+          <ion-col col-4>
+              Percentage : {{ 25 | percentage }}
+            </ion-col>
+            <ion-col col-4>
+                Percentage by 200 : {{ 25 | percentage: 200 }}
+              </ion-col>
+              <ion-col col-4>
+                  Percentage by 200 with floor value : {{ 25 | percentage: 200: true }}
+                </ion-col>
+                <ion-col col-4>
+                    Ceiling value : {{ 12.97 | ceil }}
+                  </ion-col>
+                  <ion-col col-4>
+                      Floor Value : {{12.97 | floor: 1 }}
+                    </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

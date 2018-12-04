@@ -1,0 +1,50 @@
+<!--
+  Generated template for the ArreySortPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>arraySort</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <h2>Array Sorting Examples</h2>
+    
+    <h3>One-Dimensional Arrays</h3>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+            <p>Asc Ordered</p>
+            <ul>
+                <li *ngFor="let f of fruit | sortBy: ''">{{f}}</li>
+              </ul>
+        </ion-col>
+        <ion-col col-6>
+            <p>Desc Ordered</p>
+            <ul>
+                <li *ngFor="let f of numbers | sortBy: '': true">{{f}}</li>
+              </ul>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <h3>Multi-Dimensional Arrays</h3>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-12>
+            <p>Sorted by first_name Asc</p>
+                <li *ngFor="let n of people| sortBy : 'first_name'">{{n.first_name}} {{n.last_name}}  - {{n.age}}</li>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+
+</ion-content>

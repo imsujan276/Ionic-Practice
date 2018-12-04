@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar>
+    <!-- <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button> -->
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h3>Directives</h3>
+    <button ion-button (tap)="redirectTo(1)">Parallax Header</button>
+    <button ion-button (tap)="redirectTo(2)">Custom Background </button>
+    <button ion-button (tap)="redirectTo(7)">Zoom image </button>
+  
+  <h3>System</h3>
+    <button ion-button (tap)="redirectTo(5)">Call/Message</button>
+    <button ion-button (tap)="redirectTo(11)">Fingerprint Auth</button>
+    <button ion-button (tap)="redirectTo(12)">Push Notification</button>
+
+  <h3>Pipes</h3>
+    <button ion-button (tap)="redirectTo(3)">Array sort</button>
+    <button ion-button (tap)="redirectTo(4)">Date Picker Format</button>
+    <button ion-button (tap)="redirectTo(6)">Array Group</button>
+    <button ion-button (tap)="redirectTo(9)">ngx-pipes</button>
+    <button ion-button (tap)="redirectTo(10)">ngx-pipes-array</button>
+
+  <h3>Components</h3>
+    <button ion-button (tap)="redirectTo(8)">Component Communication</button>
+
+  <h3>Payment</h3>
+    <button ion-button (tap)="redirectTo(13)">Braintree</button>
+
+    <!-- <ion-scroll scrollX="true" scrollY="true" class="scroll-section">
+      <group-by></group-by>
+        <h3>Directives</h3>
+
+        <ion-list>
+          <ion-item (tap)="redirectTo(1)"> Parallax Header </ion-item>
+          <ion-item (tap)="redirectTo(2)"> Custom Background </ion-item>
+          <ion-item (tap)="redirectTo(3)"> Array sort</ion-item>
+          <ion-item (tap)="redirectTo(4)"> Date Picker</ion-item> 
+          <ion-item (tap)="redirectTo(5)"> Call/Message</ion-item> 
+        </ion-list>
+    </ion-scroll>
+
+    <hr style="height: 2px; background: lightgray; margin: 5px 0;">
+
+    <ion-scroll scrollX="true" scrollY="true" class="scroll-section">
+        <h2>Bottom</h2>
+        <ion-list>
+            <ion-item (tap)="redirectTo(1)"> Parallax Header </ion-item>
+            <ion-item (tap)="redirectTo(2)"> Custom Background </ion-item>
+            <ion-item (tap)="redirectTo(3)"> Array sort</ion-item>
+            <ion-item (tap)="redirectTo(4)"> Date Picker</ion-item> 
+            <ion-item (tap)="redirectTo(5)"> Call/Message</ion-item> 
+          </ion-list>
+    </ion-scroll> -->
+</ion-content>
+
+
