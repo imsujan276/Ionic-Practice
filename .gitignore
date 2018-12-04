@@ -4,3 +4,4 @@ www/build/
 .DS_Store
 Thumbs.db
 .sourcemaps/
+.package-lock.json
