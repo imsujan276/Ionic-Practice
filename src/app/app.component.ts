@@ -105,14 +105,14 @@ export class MyApp {
     })
   }
 
-  initiateLocalNotification(){
-    this.localNotifications.schedule({
-      text: 'LocalNotification test',
-      led: 'FF00ff',
-      sound: null,
-      data: { secret: 'test' },
-      trigger: {at: new Date(new Date().getTime() + 7200)},
-   });
-  }
+  // initiateLocalNotification(){
+  //   this.localNotifications.schedule({
+  //     text: 'LocalNotification test',
+  //     led: 'FF00ff',
+  //     sound: null,
+  //     data: { secret: 'test' },
+  //     trigger: {at: new Date(new Date().getTime() + 7200)},
+  //  });
+  // }
 
 }
